@@ -5,7 +5,163 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner tastiera = new Scanner(System.in);
-        Alaska a = new Alaska();
+        Film film = new Film();
+        System.out.println("Inserire il titolo del film: ");
+        String titolo = tastiera.nextLine();
+        film.setTitolo(titolo);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*
+       Macchinetta macchinetta = new Macchinetta();
+       macchinetta.stampaProdotti();
+       macchinetta.leggiInput();
+
+         */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*int [] prova = {123, 56, 7 , 23, 47, 93, 18, 2};
+        BST bst = new BST();
+        for (int i = 0; i < prova.length; i++){
+            bst.insert(prova[i]);
+        }
+        bst.print();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*int oddNum = 0;
+        int num = tastiera.nextInt();
+        OddCount oc = new OddCount();
+        oddNum = oc.oddCount(num, 0);
+
+        System.out.println("Il numero di cifre dispari è: " + oddNum);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* Alaska a = new Alaska();
         a.bands();
         a.getAlaskanBands();
 
@@ -164,7 +320,3 @@ public class Main {
         tba.belowAverage(temperature);
 
         */
-    }
-
-
-}
