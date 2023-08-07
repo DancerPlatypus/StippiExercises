@@ -4,13 +4,12 @@ import java.util.Scanner;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        Scanner tastiera = new Scanner(System.in);
-        Film film = new Film();
-        System.out.println("Inserire il titolo del film: ");
-        String titolo = tastiera.nextLine();
-        film.setTitolo(titolo);
 
+        Labirinto l = new Labirinto();
 
+        System.out.println(l.CanStart(0,2));
+
+        l.PrintMatrix();
 
 
 

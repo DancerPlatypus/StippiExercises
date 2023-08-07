@@ -43,5 +43,21 @@ public class Labirinto {
             System.out.println();
         }
     }
+    
+    public boolean CanStart(int a,int b){
+        if(a<0 || b<0){
+            return false;
+        }
 
+        if(a!=0 && b!=0 ){
+            return false;
+        }
+
+        if(matrix[a][b]=='X'){
+            return false;
+        }
+
+        return true;
+
+    }
 }
