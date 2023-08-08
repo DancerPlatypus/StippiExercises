@@ -1,11 +1,49 @@
 import java.util.Scanner;
-
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
 
-        Labirinto l = new Labirinto();
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* Scanner tastiera = new Scanner(System.in);
+        System.out.println("Inserire il titolo del film: ");
+        String titolo = tastiera.nextLine();
+        Film film1 = new Film(titolo, "G");
+        film1.modificaNumeroPersone();
+        System.out.println("La media del film è: " + film1.getMedia());
+
+
+
+        System.out.println("Inserire il titolo del film: ");
+        titolo = tastiera.nextLine();
+        Film film2 = new Film(titolo, "PG");
+        film2.modificaNumeroPersone();
+        System.out.println("La media del film è: " + film2.getMedia());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* Labirinto l = new Labirinto();
 
         System.out.println(l.CanStart(0,2));
 
