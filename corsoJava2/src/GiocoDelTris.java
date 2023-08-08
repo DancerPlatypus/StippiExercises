@@ -9,10 +9,18 @@ public class GiocoDelTris {
 
     public boolean valutaRiga(){
         boolean controllo = false;
+
         for(int i = 0; i<this.griglia.length; i++) {
-            if(this.griglia[i][0] == 'X' || this.griglia[i][0] == 'O') {
-                controllo = true;
-                break;
+            for (int j = 1; j<this.griglia.length; j++){
+                if(this.griglia[i][j] == this.griglia[i][j-1]){
+                    if (this.griglia[i][j+1] == this.griglia[i][j]){
+                            controllo = true;
+                            break;
+                    }
+                    else {
+                        i++;
+                    }
+                }
             }
         }
         return controllo;
