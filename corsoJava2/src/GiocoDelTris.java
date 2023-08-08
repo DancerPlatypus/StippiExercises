@@ -7,6 +7,7 @@ public class GiocoDelTris {
         this.griglia = new char[3][3];
     }
 
+    //Sei sicuro di valutare la riga??????
     public boolean valutaRiga(){
         boolean controllo = false;
         for(int i = 0; i<this.griglia.length; i++) {
