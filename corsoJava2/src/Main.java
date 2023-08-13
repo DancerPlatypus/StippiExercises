@@ -1,5 +1,100 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
+        Scanner tastiera = new Scanner(System.in);
+        Sudoku partita = new Sudoku();
+        partita.outputSudoku();
+
+
+      /*  while(!partita.finalCheck()){
+            System.out.println("Seleziona la casella: ");
+            int row = tastiera.nextInt();
+            int column = tastiera.nextInt();
+            partita.setColumn(column);
+            partita.setRow(row);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*GiocoDelTris partita = new GiocoDelTris();
+        Giocatore giocatore1 = new Giocatore("Giocatore 1", 'X');
+        Giocatore giocatore2 = new Giocatore("Giocatore 2", 'O');
+
+        Giocatore currentPlayer = giocatore1;
+        partita.stampaOutput();
+        while(!partita.condizioneFinale()){
+
+            System.out.println("Seleziona una casella");
+            int r = tastiera.nextInt();
+            int c = tastiera.nextInt();
+
+            if(!currentPlayer.faiUnaMossa(partita, r, c)) continue;
+
+            if(currentPlayer == giocatore1){
+                currentPlayer = giocatore2;
+            }
+            else {
+                currentPlayer = giocatore1;
+            }
+
+            partita.stampaOutput();
+            System.out.println();
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
