@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
 
-        RightTriangle rt = new RightTriangle(10,7);
-        rt.drawHere();
+       // RightTriangle rt = new RightTriangle(10,7);
+       // rt.drawHere();
 
-
-
+        Maglietta maglietta = new Maglietta(19.90, "nera", 'M');
+        System.out.println(maglietta.getTaglia() + " " + maglietta.getPrezzo() + " " + maglietta.getColore());
 
 
 
